@@ -1,0 +1,90 @@
+<html>
+  <meta charset="utf-8">
+  <head>
+    <title>Chapter 8 - Tables - Exercise 1</title>
+    <style type="text/css" rel="stylesheet">
+      
+      body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #000000;
+      }
+      
+      table {
+        border-collapse: collapse;
+        margin: 0 auto;
+      }
+      
+      table caption {
+        background-color: #dadada;
+        color: #000000;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 0.8em;
+        caption-side: top;
+      }
+      
+      table th {
+        font-weight: bold;
+        text-align: center;
+        background-color: #444444;
+        color: #ffffff;
+      }
+      
+      table th,
+      table td {
+        padding: 10px;
+        border: 1px solid #dadada;
+      }
+      
+      table tr:nth-child(odd){
+        background-color: #fafafa;
+      }
+
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>Table Exercise 1</caption>
+      <tr>
+        <th id="SchoolName" rowspan="2">School Name</th>
+        <th id="Years" colspan="2">Years</th>
+        <th id="Degree" rowspan="2">Degree Awarded</th>
+      </tr>
+      <tr>
+        <th id="StartDate">Start</th>
+        <th id="EndDate">End</th>
+      </tr>
+      <tr>
+        <td headers="SchoolName">Unidad Educativa Espiritu Santo</td>
+        <td headers="StartDate">1990</td>
+        <td headers="EndDate">1992</td>
+        <td headers="Degree">Kindergarten</td>
+      </tr>
+      <tr>
+        <td headers="SchoolName">Liceo Cristiano</td>
+        <td headers="StartDate">1992</td>
+        <td headers="EndDate">1998</td>
+        <td headers="Degree">Elementary</td>
+      </tr>
+      <tr>
+        <td headers="SchoolName">Mariscal Sucre</td>
+        <td headers="StartDate">1998</td>
+        <td headers="EndDate">2002</td>
+        <td headers="Degree">Middle School</td>
+      </tr>
+      <tr>
+        <td headers="SchoolName">James Bowie High School</td>
+        <td headers="StartDate">2002</td>
+        <td headers="EndDate">2004</td>
+        <td headers="Degree">High School</td>
+      </tr>
+      <tr>
+        <td headers="SchoolName">University of Texas at Arlington</td>
+        <td headers="StartDate">????</td>
+        <td headers="EndDate">2012</td>
+        <td headers="Degree">Bachelors in Arts</td>
+      </tr>
+    </table>
+  </body>
+</html>
