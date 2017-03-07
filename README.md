@@ -5,3 +5,6 @@ This Repo includes both major projects for CTEC 3350 using the JavaJam Mock Comp
 
 1. - Responsive Visual Style Guide
 2. - JavaJam Website
+
+Assignments
+1. - Baseline Grid [https://enlightenment.design/baseline-grid/]

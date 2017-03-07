@@ -1,0 +1,115 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  color:#444;
+}
+
+h1 {
+  font-size: 2.618em;
+  line-height: 3rem; 
+  margin: 1rem auto 2rem auto;
+  color: #888888;
+  font-weight: 100;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.618em;
+  line-height: 2rem;
+  margin: 1rem auto 2rem auto;
+  color: #cccccc;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.25rem; 
+  margin: 1rem auto 2rem auto;
+  color: #222222;
+  font-family: serif;
+}
+
+q {
+  font-style: italic;
+  color:#777;
+  quotes: '' '';
+}
+
+
+
+@media screen and (max-width: 30em)
+{
+  html, body {
+    font-size: 24px;
+  }
+
+  .container {
+    width:90%;
+    margin:auto;
+  }
+  
+  p {
+    font-family: sans-serif;
+  }
+
+}
+
+
+@media screen and (min-width:30.01em) and (max-width: 48em)
+{
+  html, body {
+    font-size: 28px;
+  }
+
+  .container {
+    width: 85%;
+    margin:auto;
+  }
+
+}
+
+@media screen and (min-width:48.01em) and (max-width: 60em)
+{
+  html, body {
+    font-size: 32px;
+  }
+
+  .container {
+    width:80%;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (min-width:60.01em) and (max-width: 80em)
+{
+  html, body {
+    font-size: 36px;
+  }
+
+  .container {
+    width:75%;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (min-width:80.01em) 
+{
+  html, body {
+    font-size: 40px;
+  }
+
+  .container {
+    width:70%;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+
+}
