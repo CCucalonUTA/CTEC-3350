@@ -1,0 +1,258 @@
+/* External Font Embed */
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i|Montserrat:200,200i,300,300i,400');
+/* End of External Font Embed */
+
+* {
+  padding:0;
+  margin:0;
+}
+
+html, body {
+  font-size: 32px;
+}
+
+body {
+  color:#444;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.618em;
+  line-height: 3rem; 
+  margin: 1rem auto 2rem auto;
+  color: #888888;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.618em;
+  line-height: 2rem;
+  margin: 1rem auto 2rem auto;
+  color: #cccccc;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+  line-height: 1.25rem;
+  margin: 1rem auto;
+  color: #222222;
+}
+
+p {
+  font-size: 0.618em;
+  line-height: 0.75rem; 
+  margin: 0.25rem auto 0.75rem auto;
+  color: #222222;
+}
+
+img.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Textured Background */
+.cta-container {
+  width: 100%;
+  background-image: url("Edited/forweb/WoodBarkTexture.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cta-container .item {
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+
+.cta-container .content {
+  -webkit-order: 1;
+  order: 1;
+}
+
+.cta-container .featured-image {
+  -webkit-order: 2;
+  order: 2;
+}
+
+.cta-container .content h3 {
+  font-size: 1e,;
+  line-height: 1.25rem;
+  margin: 0 0 1rem;
+  color: #1692a7;
+  font-style: italic;
+}
+
+.cta-container .content p {
+  color: #ffffff;
+}
+
+.cta-container .content p a.cta:link,
+.cta-container .content p a.cta:active,
+.cta-container .content p a.cta:hover,
+.cta-container .content p a.cta:visited {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+
+  border: 0.0615rem solid #1CBCD7;
+
+  display: inline-block;
+  overflow: hidden;
+  padding: 0.5rem 1rem;
+  font-weight: 300;
+  text-decoration: none;
+
+  /* CSS3 Transition */
+  transition: background .25s ease-in-out;
+  -moz-transition: background .25s ease-in-out;
+  -webkit-transition: background .25s ease-in-out;
+}
+
+.cta-container .content p a.cta:hover {
+  background-color: rgba(34, 223, 255, 0.2);
+}
+
+/* Items */
+.cta-container .item.gourmet-coffee .featured-image {
+  background-image: url("Edited/forweb/WhiteCoffeeCup.png");
+  background-size: auto auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: right;
+}
+
+
+@media screen and (max-width: 30em)
+{
+  .cta-container .item {
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+  }
+  .cta-container .content {
+    padding: 0 0.25rem;
+  }
+  
+  .cta-container .content h3,
+  .cta-container .content p {
+    text-align: center;
+  }
+
+  .cta-container .item.gourmet-coffee .featured-image {
+    padding: 1rem 0;
+    height: 150px;
+    background-image: url("Edited/forweb/WhiteCoffeeCupMobile_30em.png");
+    background-position: bottom;
+    background-size: auto auto;
+  }
+
+  .cta-container .item {
+    padding: 0 0.25rem;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width:30.01em) and (max-width: 48em)
+{
+  .cta-container .item {
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+  }
+  .cta-container .content {
+    padding: 0 0.25rem;
+  }
+  
+  .cta-container .content h3,
+  .cta-container .content p {
+    text-align: center;
+  }
+
+  .cta-container .item.gourmet-coffee .featured-image {
+    padding: 1rem 0;
+    height: 150px;
+    background-image: url("Edited/forweb/WhiteCoffeeCupMobile_30em.png");
+    background-position: bottom;
+    background-size: auto auto;
+  }
+
+  .cta-container .item {
+    padding: 0 0.25rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width:48.01em) and (max-width: 60em)
+{
+  .cta-container .content {
+    padding: 2rem;
+    width: 50%;
+  }
+
+  .cta-container .item.gourmet-coffee .featured-image {
+    background-image: url(Edited/forweb/WhiteCoffeeCup_48-60em.png);
+    background-size: auto;
+    width: 45%;
+    padding-left: 5%;
+  }
+
+  .cta-container .item {
+    padding: 2rem 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width:60.01em) and (max-width: 80em)
+{
+  .cta-container .content {
+    padding: 2rem 0;
+    width: 50%;
+  }
+
+  .cta-container .item.gourmet-coffee .featured-image {
+    background-image: url(Edited/forweb/WhiteCoffeeCup_60-80em.png);
+    background-size: contain;
+    width: 45%;
+    padding-left: 5%;
+  }
+
+  .cta-container .item {
+    width: 80%;
+    padding: 2rem 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width:80.01em) 
+{
+  .cta-container .content {
+    padding: 2rem 0;
+    width: 40%;
+  }
+
+  .cta-container .item.gourmet-coffee .featured-image {
+    width: 60%;
+    background-position: center right;
+  }
+
+  .cta-container .item {
+    width: 80%;
+    padding: 2rem 0;
+    margin: 0 auto;
+  }
+}
