@@ -1,0 +1,105 @@
+/* External Font Embed */
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i|Montserrat:200,200i,300,300i,400');
+/* End of External Font Embed */
+
+* {
+  padding:0;
+  margin:0;
+}
+
+html, body {
+  font-size: 24px;
+}
+
+body {
+  color:#444;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.618em;
+  line-height: 3rem; 
+  margin: 1rem auto 2rem auto;
+  color: #888888;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.618em;
+  line-height: 2rem;
+  margin: 1rem auto 2rem auto;
+  color: #cccccc;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+  line-height: 1.25rem;
+  margin: 1rem auto;
+  color: #222222;
+}
+
+p {
+  font-size: 0.618em;
+  line-height: 0.75rem; 
+  margin: 0.25rem auto 0.75rem auto;
+  color: #222222;
+}
+
+img.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* BIO COMPONENT */
+.bio {
+  
+}
+
+.bio-container {
+  
+}
+
+.bio-title {
+  
+}
+
+.bio-pic {
+  
+}
+
+.bio-description {
+  
+}
+
+@media screen and (max-width: 30em)
+{
+
+}
+
+
+@media screen and (min-width:30.01em) and (max-width: 48em)
+{
+
+}
+
+@media screen and (min-width:48.01em) and (max-width: 60em)
+{
+
+}
+
+@media screen and (min-width:60.01em) and (max-width: 80em)
+{
+
+}
+
+@media screen and (min-width:80.01em) 
+{
+
+}
