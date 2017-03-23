@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <form method="post" action="registration.php" name="registration">
+      <fieldset>
+
+        <legend>Customer Registration</legend>
+
+        <h3>Account Set Up</h3>
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <div class="form-control">
+            <input type="text" name="username" id="username" placeholder="username" />
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <div class="form-control">
+            <input type="email" name="email" id="email" placeholder="admin@user.com" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <div class="form-control">
+            <input type="password" name="password" id="password" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="passwordConfirmation">Confirm Password:</label>
+          <div class="form-control">
+            <input type="password" name="passwordConfirmation" id="passwordConfirmation" />
+          </div>
+        </div>
+        
+        <h3>Weekly Reminder Preferences</h3>
+        <div class="form-group">
+          <label for="favoriteWeekDay">What's your Favorite Day of the week?</label>
+          <div class="form-control">
+            <label><input type="radio" name="favoriteWeekDay" id="favoriteWeekDay" value="Monday" checked />Monday</label>
+            <label><input type="radio" name="favoriteWeekDay" value="Tuesday" id="tuesday" />Tuesday</label>
+            <label><input type="radio" name="favoriteWeekDay" value="Wednesday" />Wednesday</label>
+            <label><input type="radio" name="favoriteWeekDay" value="Thursday" />Thursday</label>
+            <label><input type="radio" name="favoriteWeekDay" value="Friday" />Friday</label>
+            <label><input type="radio" name="favoriteWeekDay" value="Saturday" />Saturday</label>
+            <label><input type="radio" name="favoriteWeekDay" value="Sunday" />Sunday</label>
+          </div>
+        </div>
+        
+        <h3>Social Media</h3>
+        <div class="form-group">
+          <label for="socialMedia">What Social Media do you use?</label>
+          <div class="form-control">
+            <label><input type="checkbox" name="socialMedia" id="socialMedia" value="Facebook" checked />Facebook</label>
+            <label><input type="checkbox" name="socialMedia" value="Snapchat" />Snapchat</label>
+            <label><input type="checkbox" name="socialMedia" value="Twitter" />Twitter</label>
+            <label><input type="checkbox" name="socialMedia" value="Google" />Google+</label>
+            <label><input type="checkbox" name="socialMedia" value="MySpace" />MySpace</label>
+          </div>
+        </div>
+        
+        <h3>Mailing Information</h3>
+        <div class="form-group">
+          <label for="firstName">FirstName:</label>
+          <div class="form-control">
+            <input type="text" name="firstName" id="firstName" placeholder="First Name" />
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <div class="form-control">
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="address1">Address:</label>
+          <div class="form-control">
+            <input type="text" name="address1" id="address1" placeholder="Address 1" />
+            <input type="text" name="address2" id="address2" placeholder="PO BOX, Apt #, other" />
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="city">City:</label>
+          <div class="form-control">
+            <input type="text" name="city" id="city" placeholder="City" />
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="state">State:</label>
+          <div class="form-control">
+            <input type="text" name="state" id="state" maxlength="2" placeholder="ST" />
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="zip">Zip Code:</label>
+          <div class="form-control">
+            <input type="number" name="zip" id="zip" placeholder="XXXXX" />
+          </div>
+        </div>
+        
+        <h3>Other Relevant Information</h3>
+        <div class="form-group">
+          <label for="comments">Comments:</label>
+          <div class="form-control">
+            <textarea name="comments" id="comments" cols="40" rows="6"></textarea>
+          </div>
+        </div>
+
+      </fieldset>
+    </form>
+  </body>
+</html>
