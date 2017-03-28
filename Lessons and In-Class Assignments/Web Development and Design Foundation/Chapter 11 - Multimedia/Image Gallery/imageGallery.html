@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Gallery | CCucalon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <style>
+      body {
+        font-family: verdana, arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.2em;
+        color: #666666;
+      }
+
+      #gallery {
+        width: 100%;
+        position: relative;
+      }
+
+      #gallery ul {
+        width: 50%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        display: -webkit-flex;
+
+        -webkit-flex-direction: row;
+        flex-direction: row;
+
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: center;
+      }
+
+      #gallery ul li {
+        flex: 1 233px;
+      }
+
+      #gallery ul li img {
+        max-width: 100%;
+        max-height: 155px;
+      }
+
+      #gallery ul li span {
+        display: none;
+      }
+
+
+
+      #gallery a:hover span {
+        width: 50%;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+      }
+
+      #gallery a:hover span img {
+        max-height: inherit;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Image Gallery</h1>
+    <div id="gallery">
+      <ul>
+        <li>
+          <a href="images/feet-hipster-longboard-skateboard.jpg"><img src="images/feet-hipster-longboard-skateboard.jpg" alt="Text" />
+            <span>
+              <img src="images/feet-hipster-longboard-skateboard.jpg" alt="Text" /><br />
+              Text
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="images/pexels-photo-111295.jpeg"><img src="images/pexels-photo-111295.jpeg" alt="Text" />
+            <span>
+              <img src="images/pexels-photo-111295.jpeg" alt="Text" /><br />
+              Text
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="images/pexels-photo-175701.jpeg"><img src="images/pexels-photo-175701.jpeg" alt="Text" />
+            <span>
+              <img src="images/pexels-photo-175701.jpeg" alt="Text" /><br />
+              Text
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="images/pexels-photo.jpg"><img src="images/pexels-photo.jpg" alt="Text" />
+            <span>
+              <img src="images/pexels-photo.jpg" alt="Text" /><br />
+              Text
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
