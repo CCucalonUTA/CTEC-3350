@@ -1,0 +1,16 @@
+table.table {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+table.table td {
+  border-bottom: 1px solid #cccccc;
+}
+
+/* Code Snippets */
+.snippet {
+  display: -webkit-flex;
+  display: flex;
+}

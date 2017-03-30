@@ -1,0 +1,64 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i|Montserrat:300,300i,400,400i,500');
+
+* {
+  padding:0;
+  margin:0;
+}
+
+html, body {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  color: #666666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+  color: #222222;
+}
+
+h1 {
+  font-size: 4.236em;
+  line-height: 4.25rem; 
+  margin: 1rem auto 1.5rem auto;
+}
+
+h2 {
+  font-size: 2.618em;
+  line-height: 3rem;
+  margin: 1rem auto 1.25rem auto;
+}
+
+h3 {
+  font-size: 1.618em;
+  line-height: 2rem;
+  margin: 1rem auto 1rem auto;
+}
+
+h4 {
+  font-size: 1em;
+  line-height: 1rem;
+  margin: 1rem auto 1rem auto;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.25rem; 
+  margin: 1rem auto 2rem auto;
+}
+
+b, strong {
+  font-weight: 500;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+  color: #1692A7;
+}
