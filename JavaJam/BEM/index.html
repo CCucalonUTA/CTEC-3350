@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="Assets/css/code-snippets.css">
     <link rel="stylesheet" href="Assets/css/bem-styles.css">
     <link rel="stylesheet" href="Assets/css/typography.css">
+    <link rel="stylesheet" href="Assets/css/components.css">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -17,7 +18,7 @@
     <div id="nav" class="container">
       <div class="row">
         <div class="col-md-12">
-          <ul>
+          <ul class="inline">
             <li>CSS</li>
             <li>Navigation</li>
             <li>Components</li>
@@ -52,7 +53,17 @@
           </div>
           <div id="Typography" class="content-area">
             <h2>Typography</h2>
+            <p>The following fonts are used for this site:</p>
+            <ul>
+              <li><strong>Headings:</strong><br />
+                <code>font-family: 'Crete Round', serif;</code>
+              </li>
+              <li><strong>Body Copy:</strong><br />
+                <code>font-family: 'Montserrat', sans-serif;</code>
+              </li>
+            </ul>
             <h3 id="headings">Headings</h3>
+            <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h4&gt;</code>, are available. .h1 through .h4 classes are also available, for when you want to match the font styling of a heading but still want your text to be displayed inline.</p>
             <div class="sample">
               <table class="table">
                 <tr>
@@ -103,6 +114,68 @@
             </code>
             </pre>
             </div>
+            
+            <h3 id="lists">Lists</h3>
+            <h3>Ordered List</h3>
+            <div class="sample">
+              <ol>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Phasellus lacinia dui id lacus scelerisque maximus.</li>
+                <li>Duis porttitor turpis eget eros accumsan aliquet.
+                  <ol>
+                    <li>Quisque pellentesque lacus sit amet ex volutpat venenatis.</li>
+                    <li>Sed ornare velit vitae sem mollis molestie.</li>
+                  </ol>
+                </li>
+                <li>Aenean quis nibh rutrum, hendrerit nunc sit amet, condimentum dui.</li>
+              </ol>
+              <pre>
+            <code>
+&lt;ol&gt;
+  &lt;li&gt;...&lt;/li&gt;
+&lt;/ol&gt;
+            </code>
+            </pre>
+            </div>
+            
+            <h3>Unordered List</h3>
+            <div class="sample">
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Phasellus lacinia dui id lacus scelerisque maximus.</li>
+                <li>Duis porttitor turpis eget eros accumsan aliquet.
+                  <ul>
+                    <li>Quisque pellentesque lacus sit amet ex volutpat venenatis.</li>
+                    <li>Sed ornare velit vitae sem mollis molestie.</li>
+                  </ul>
+                </li>
+                <li>Aenean quis nibh rutrum, hendrerit nunc sit amet, condimentum dui.</li>
+              </ul>
+              <pre>
+            <code>
+&lt;ul&gt;
+  &lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+            </code>
+            </pre>
+            </div>
+            
+            <h3>Inline List</h3>
+            <div class="sample">
+              <ul class="inline">
+                <li>Lorem ipsum dolor</li>
+                <li>Phasellus lacinia</li>
+                <li>Duis porttitor turpis</li>
+                <li>Aenean quis nibh rutrum</li>
+              </ul>
+              <pre>
+            <code>
+&lt;ul class="inline"&gt;
+  &lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+            </code>
+            </pre>
+            </div>
           </div>
         </div>
         <div class="col-md-4 toc">
@@ -114,10 +187,18 @@
                 <li><a href="#headings">Headings</a></li>
                 <li><a href="#bodyCopy">Body copy</a></li>
                 <li><a href="#bold">Bold</a></li>
+                <li><a href="#lists">Lists</a></li>
               </ul>
             </li>
             <li class="backToTop"><a href="#nav">back to top <i class="fa fa-long-arrow-up" aria-hidden="true"></i></a></li>
           </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>All rights to CCucalon</p>
         </div>
       </div>
     </div>

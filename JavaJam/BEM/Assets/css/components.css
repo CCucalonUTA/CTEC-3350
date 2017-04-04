@@ -1,0 +1,35 @@
+/* Menu Favorites */
+.menu-favorites {
+  position: relative;
+}
+
+.menu-favorites .menu-favorites-image {
+  border: 1px solid #cccccc;
+  background-color: #fefefe;
+  max-width: 100%;
+  height: 200px;
+  
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.menu-favorites .menu-favorites-image span {
+  background-color: #888888;
+  color: #ffffff;
+  padding: 0.5rem 0.75rem;
+  margin: 0 0.5rem;
+  text-align: center;
+}
+
+.menu-favorites h3.title {
+  text-align: center;
+}
+
+.menu-favorites .description {
+  text-align: center;
+}

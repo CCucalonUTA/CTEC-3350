@@ -3,7 +3,7 @@
 
 .toc {
   position: fixed;
-  top: 100;
+  top: 100px;
   right: 0;
 }
 
@@ -40,6 +40,10 @@
 }
 .toc ul li.backToTop a {
   font-weight: 300;
+}
+
+.toc ul ul li {
+  margin: 0;
 }
 
 
@@ -84,4 +88,28 @@ pre {
   margin: 1rem -1rem -1rem;
   border-radius: 0 0 0.5rem 0.5rem;
   box-sizing: border-box;
+}
+
+
+
+@media (max-width: 768px) {
+  .responsive-hidden {
+    display: none;
+  }
+}
+
+
+
+ul.classes-used {
+  margin: 0 0 2rem 1rem;
+  list-style-type: none;
+}
+
+ul.classes-used ul {
+  margin-top: 0;
+  list-style-type: none;
+}
+
+ul.classes-used li {
+  margin: 0;
 }

@@ -22,28 +22,32 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
 }
 
-h1 {
+h1, .h1 {
   font-size: 4.236em;
   line-height: 4.25rem; 
   margin: 1rem auto 1.5rem auto;
 }
 
-h2 {
+h2, .h2 {
   font-size: 2.618em;
   line-height: 3rem;
   margin: 1rem auto 1.25rem auto;
 }
 
-h3 {
+h3, .h3 {
   font-size: 1.618em;
   line-height: 2rem;
   margin: 1rem auto 1rem auto;
 }
 
-h4 {
+h4, .h4 {
   font-size: 1em;
   line-height: 1rem;
   margin: 1rem auto 1rem auto;
+}
+
+.h1, .h2, .h3, .h4 {
+  display: inline-block;
 }
 
 p {
@@ -54,6 +58,7 @@ p {
 
 b, strong {
   font-weight: 500;
+  color: #222222;
 }
 
 a:link,
@@ -61,4 +66,34 @@ a:visited,
 a:active,
 a:hover {
   color: #1692A7;
+}
+
+ul, ol {
+  margin-left: 1.25rem;
+}
+
+ol li,
+ul li {
+  margin-bottom: 1rem;
+}
+
+ul ol,
+ol ol,
+ol ul,
+ul ul {
+    margin-top: 1rem;
+}
+
+ol ol {
+  list-style-type: lower-latin;
+}
+
+ul.inline {
+  margin-left: 0;
+  list-style-type: 0 none;
+}
+
+ul.inline li {
+  display: inline-block;
+  margin-right: 2rem;
 }
