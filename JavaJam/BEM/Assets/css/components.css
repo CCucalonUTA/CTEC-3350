@@ -1,3 +1,86 @@
+/* Global One offs */
+.top-spacing {
+  margin-top: 3rem;
+}
+/* End of Global One offs */
+
+
+
+/* Header area */
+header {
+  max-width: 100%;
+  
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* Logo */
+header .brand {
+
+}
+
+header .brand img {
+  height: 130px;
+  width: auto;
+}
+
+/* Navigation */
+.navigation {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: flex-end;
+  align-content: center;
+}
+
+.navigation .social-media,
+.navigation .nav-bar {
+  max-width: 100%;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+
+  list-style-type: none;
+}
+
+.navigation .social-media li {
+  margin-left: 1.6rem;
+}
+
+.navigation .nav-bar li {
+  margin-left: 2rem;
+}
+
+.navigation .social-media li:first-child,
+.navigation .nav-bar li:first-child {
+  margin-left: 0;
+}
+
+.navigation .nav-bar li a {
+  color: #000000;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.navigation .social-media li a {
+  color: #666666;
+  font-size: 1.3em;
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+
+}
+
 /* Menu Favorites */
 .menu-favorites {
   position: relative;
@@ -8,7 +91,7 @@
   background-color: #fefefe;
   max-width: 100%;
   height: 200px;
-  
+
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
